@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+set -eo pipefail
+
+./autogen.sh && ./configure --enable-tpm=auto --with-stage1-flavors=fly && make

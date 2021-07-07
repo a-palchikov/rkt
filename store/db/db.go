@@ -21,7 +21,7 @@ import (
 
 	"github.com/rkt/rkt/pkg/lock"
 
-	_ "github.com/cznic/ql/driver"
+	_ "modernc.org/ql/driver"
 )
 
 const (
